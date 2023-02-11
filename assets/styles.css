@@ -17,18 +17,23 @@ header h1 {
     sit at top right where they are wanted*/
 
 header nav {
-    padding-top: 15px;
+    padding-top: 5px;
     margin-right: 20px; /*moved the picture, not the nav items*/
-    float: right;  /*this moved the nav links to the right of the page*/
+    float: right;  
 }
+    /*this moved the nav links to the right of the page
+    and looks much better than using "position"*/
+    
+
 
 header nav ul {
     list-style-type: none;
+    padding-inline-start: 5px;
 }
 
 header nav ul li {
     display:inline-block; /*don't mess with this*/
-    margin-left: 25px;
+    margin-left: 5px;
 }
 nav {
     display: inline; 
@@ -43,6 +48,8 @@ main {
 
 .nav-links {
    color: white;
+   width: 200px;
+   height: 300px;
   
 }
 
@@ -55,12 +62,14 @@ main {
 */
 
 img {
-    display: block;
+    display: inline;
     width: 200px;
     height:200px;
-    margin: 0 auto;
+    margin: 1px;
     padding: 10px;
     border-style: dashed;
+    position: relative;
+
     
 }
 

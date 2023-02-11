@@ -1,0 +1,57 @@
+*{
+    border-style: dashed; 
+}
+/* gave every box a dashed border 
+to better visualize their space */
+
+header {
+    background-color: #ce1717;
+    
+}
+
+header h1 {
+    display: inline-block; 
+    font-size: 48px;
+    }
+    /* "inline-block" lets nav elements 
+    sit at top right where they are wanted*/
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px; /*moved the picture, not the nav items*/
+    float: right;  /*this moved the nav links to the right of the page*/
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display:inline-block; /*don't mess with this*/
+    margin-left: 25px;
+}
+nav {
+    display: inline; 
+}
+/*adding width and height here made the box display oddly*/
+
+main {
+    background-color: rgb(10, 243, 100);
+    color: white;
+}
+/* "main" and ".nav-links" both have text color set to white */
+
+.nav-links {
+   color: white;
+  
+}
+
+img {
+    display: block;
+    width: 200px;
+    height:200px;
+    margin: 0 auto;
+    padding: 10px;
+    border-style: dashed;
+    size: 10px;
+}

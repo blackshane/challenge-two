@@ -46,6 +46,14 @@ main {
   
 }
 
+/* This will make the section move to the right of the page >
+
+#about-me {
+    position:fixed;
+    right:50px
+}
+*/
+
 img {
     display: block;
     width: 200px;
@@ -53,5 +61,23 @@ img {
     margin: 0 auto;
     padding: 10px;
     border-style: dashed;
-    size: 10px;
+    
 }
+
+#about-me-details {
+    position:relative;
+    left:400px;
+}
+ /*takes information pertaining to the 
+ "about me" section to the right*/
+
+
+
+
+/* #<insert class here> {
+    position:fixed;
+    bottom: 0;
+    right; 0;
+}
+This will keep something fixed to the bottom right. 
+!!!Probably won't use!!!*/

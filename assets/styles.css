@@ -40,7 +40,7 @@ nav {
 }
 /*adding width and height here made the box display oddly*/
 
-main {
+body {
     background-color: rgb(10, 243, 100);
     color: white;
 }
@@ -73,7 +73,7 @@ img {
     
 }
 
-#about-me-details {
+article {
     position:relative;
     left:400px;
 }

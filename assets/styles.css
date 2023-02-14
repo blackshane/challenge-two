@@ -1,4 +1,4 @@
-/**{
+*{
     border-style: dashed; 
     flex-wrap: wrap;
 }
@@ -6,19 +6,20 @@
 to better visualize their space */
 
 header {
-    background-color: #ce1717;
+    background-color: #ce1717; 
+    width: fit-content;  /* fixed problem of nav shifting under Name when screen size changed */
     
 }
 
 header h1 {
     display: inline-block; 
-    font-size: 48px;
+    font-size: 38px;
     }
     /* "inline-block" lets nav elements 
     sit at top right where they are wanted*/
 
 header nav {
-    padding-top: 5px;
+    padding-top: 0px;
     margin-right: 20px; /*moved the picture, not the nav items*/
     float: right;  
 }
@@ -29,7 +30,7 @@ header nav {
 
 header nav ul {
     list-style-type: none;
-    padding-inline-start: 5px;
+    padding-inline-start: 50px;
 }
 
 header nav ul li {
@@ -38,7 +39,13 @@ header nav ul li {
 }
 
 header img {
-    width: 100%;
+    width: 99.8%;
+    display: inline;
+    height:200px;
+    margin: 0px;
+    padding: 1px;
+    position:relative;
+
    
     
 }
@@ -68,7 +75,7 @@ aside {
     border-left: silver;
     border-style: groove;
     border-width: 10px;
-    margin-left: 20px;
+    margin-left: 5px;
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -83,7 +90,7 @@ body {
 .nav-links {
    color: white;
    width: 200px;
-   height: 300px;
+   height:300px;
   
 }
 
@@ -101,21 +108,14 @@ main {
 }
 */
 
-img {
-    display: inline;
-    width: 200px;
-    height:200px;
-    margin: 1px;
-    padding: 10px;
-    border-style: dashed;
-    position: relative;
 
-    
-}
 
 article {
+    display: inline;
     position:relative;
-    left:400px;
+    width: 100px;
+    left:500px;
+    border-style: dashed;
 }
  /*takes information pertaining to the 
  "about me" section to the right*/

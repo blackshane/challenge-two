@@ -1,13 +1,14 @@
-*{
+/**{
     border-style: dashed; 
-    flex-wrap: wrap;
+   
+   
 }
 /* gave every box a dashed border 
 to better visualize their space */
 
 header {
     background-color: #ce1717; 
-    width: fit-content;  /* fixed problem of nav shifting under Name when screen size changed */
+    width: 100%;  /* fixed problem of nav shifting under Name when screen size changed */
     
 }
 
@@ -43,7 +44,7 @@ header img {
     display: inline;
     height:200px;
     margin: 0px;
-    padding: 1px;
+    padding: 0px;
     position:relative;
 
    
@@ -56,8 +57,29 @@ nav {
 }
 /*adding width and height here made the box display oddly*/
 
-/*
-aside {
+
+   
+
+.about-me {
+    border-left: silver;
+    border-style: groove;
+    border-width: 10px;
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+p {
+    position: absolute;
+    top: 500px;
+    left: 250px;
+    width: 800px;
+    height: 10px;
+   
+  }
+
+
+/*aside {
     border-left: silver;
     border-style: groove;
     border-width: 10px;
@@ -65,17 +87,39 @@ aside {
     padding: 20px;
     clear: both;
     float: left;
-    width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}*/
+} 
+*/
 
-#about-me {
+
+#resume {
     border-left: silver;
     border-style: groove;
     border-width: 10px;
     margin-left: 5px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+#work {
+    border-left: silver;
+    border-style: groove;
+    border-width: 10px;
+    margin-left: 5px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+#contact-me {
+    border-left: silver;
+    border-style: groove;
+    border-width: 10px;
+    margin-left: 5px;
+  
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -96,27 +140,15 @@ body {
 
 
 main {
-    display: flex;
-    flex-direction: column;
+    
+   
 }
 
-/* This will make the section move to the right of the page >
-
-#about-me {
-    position:fixed;
-    right:50px
-}
-*/
 
 
 
-article {
-    display: inline;
-    position:relative;
-    width: 100px;
-    left:500px;
-    border-style: dashed;
-}
+
+
  /*takes information pertaining to the 
  "about me" section to the right*/
 

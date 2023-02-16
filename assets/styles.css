@@ -94,20 +94,6 @@ p {
   }
 
 
-/*aside {
-    border-left: silver;
-    border-style: groove;
-    border-width: 10px;
-    margin-left: 20px;
-    padding: 20px;
-    clear: both;
-    float: left;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-} 
-*/
-
 
 #resume {
     text-align: center;
@@ -120,6 +106,9 @@ p {
     background-color: #43a6db;
 }
 
+.resume-link:hover {
+    background-color:  #6fbce6;
+}
 
 #projects {
     width: 99%;
@@ -132,6 +121,10 @@ p {
     background-color: #2589bd;
 }
 
+.project-link:hover {
+    background-color: #6fbce6;
+}
+
 #contact-me {
     width: 99%;
     border-left: silver;
@@ -142,10 +135,3 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #43a6db;
 }
-
-
- 
-
-
-
-

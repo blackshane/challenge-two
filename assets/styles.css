@@ -40,17 +40,13 @@ header nav ul li {
 }
 
 header img {
-    width: 99.8%;
-    display: inline;
+    width: 50%;
+    display: block;
     height:200px;
-    margin: 0px;
-    padding: 0px;
-    position:relative;
-
-   
+    margin: auto;
+    padding: 10px;
     
 }
-
 
 nav {
     display: inline; 
@@ -58,9 +54,24 @@ nav {
 /*adding width and height here made the box display oddly*/
 
 
+
+body {
+    background-color: rgb(10, 243, 100);
+    color: white;
+}
+main {
+    display: block;
+   
+}
+
+
+h2, p {
+    display: block;
+}
    
 
 .about-me {
+    text-align: center;
     border-left: silver;
     border-style: groove;
     border-width: 10px;
@@ -69,12 +80,10 @@ nav {
     background-color: #2589bd;
 }
 
+
+
 p {
-    position: absolute;
-    top: 500px;
-    left: 250px;
-    width: 800px;
-    height: 10px;
+  margin: 15px;
    
   }
 
@@ -95,41 +104,36 @@ p {
 
 
 #resume {
-    border-left: silver;
+   /* border-left: silver;
     border-style: groove;
-    border-width: 10px;
-    margin-left: 5px;
-
+    border-width: 10px;*/
+    text-align: center;
+    margin:auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-#work {
-    border-left: silver;
+#projects {
+   /* border-left: silver;
     border-style: groove;
-    border-width: 10px;
-    margin-left: 5px;
-
+    border-width: 10px;*/
+    text-align: center;
+    margin:auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 #contact-me {
-    border-left: silver;
+    /* border-left: silver;
     border-style: groove;
-    border-width: 10px;
-    margin-left: 5px;
-  
-
+    border-width: 10px;*/
+    text-align: center;
+    margin:auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-body {
-    background-color: rgb(10, 243, 100);
-    color: white;
-}
-/* "main" and ".nav-links" both have text color set to white */
+
 
 .nav-links {
    color: white;
@@ -139,26 +143,6 @@ body {
 }
 
 
-main {
-    
-   
-}
 
 
 
-
-
-
- /*takes information pertaining to the 
- "about me" section to the right*/
-
-
-
-
-/* #<insert class here> {
-    position:fixed;
-    bottom: 0;
-    right; 0;
-}
-This will keep something fixed to the bottom right. 
-!!!Probably won't use!!!*/

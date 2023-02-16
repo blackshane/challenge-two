@@ -7,7 +7,7 @@
 to better visualize their space */
 
 header {
-    background-color: #ce1717; 
+    background-color: #65deee; 
     width: 100%;  /* fixed problem of nav shifting under Name when screen size changed */
     
 }
@@ -20,6 +20,7 @@ header h1 {
     sit at top right where they are wanted*/
 
 header nav {
+   
     padding-top: 0px;
     margin-right: 20px; /*moved the picture, not the nav items*/
     float: right;  
@@ -30,14 +31,17 @@ header nav {
 
 
 header nav ul {
+ 
     list-style-type: none;
     padding-inline-start: 50px;
 }
 
 header nav ul li {
+    color:azure;
     display:inline-block; /*don't mess with this*/
     margin-left: 5px;
 }
+
 
 header img {
     width: 50%;
@@ -56,13 +60,14 @@ nav {
 
 
 body {
-    background-color: rgb(10, 243, 100);
+    background-color: #65deee;
     color: white;
 }
 main {
     display: block;
    
 }
+
 
 
 h2, p {

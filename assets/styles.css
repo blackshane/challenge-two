@@ -44,10 +44,11 @@ header nav ul li {
 
 
 header img {
-    width: 50%;
+    width: 275px;
     display: block;
+    align-items: center;
     height:200px;
-    margin: auto;
+    margin-left: 5;
     padding: 10px;
     
 }
@@ -109,19 +110,22 @@ p {
 
 
 #resume {
-   /* border-left: silver;
+    text-align: center;
+    width: 99%;
+    border-left: silver;
     border-style: groove;
     border-width: 10px;*/
-    text-align: center;
     margin:auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #43a6db;
 }
 
+
 #projects {
-   /* border-left: silver;
+    width: 99%;
+    border-left: silver;
     border-style: groove;
-    border-width: 10px;*/
+    border-width: 10px;
     text-align: center;
     margin:auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -129,24 +133,18 @@ p {
 }
 
 #contact-me {
-    /* border-left: silver;
+    width: 99%;
+    border-left: silver;
     border-style: groove;
-    border-width: 10px;*/
+    border-width: 10px;
     text-align: center;
     margin:auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #43a6db;
 }
 
 
-
-.nav-links {
-   color: white;
-   width: 200px;
-   height:300px;
-  
-}
-
+ 
 
 
 

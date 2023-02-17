@@ -9,6 +9,9 @@
 
   ## Deployment
   Open "Index.html" in a browser window.
+  ![image](https://user-images.githubusercontent.com/122633142/219549345-ff6364c6-0ebb-4b99-b981-09b5380433e4.png)
+  
+  https://blackshane.github.io/challenge-two/
 ## Challenges faced
     Challenges faced included getting the main image of the page to display in the middle exactly how I wanted it without moving the other items in the Header. Additional challenges occurred when first attempting to adjust the layout of the boxes within the webpage. 
 
